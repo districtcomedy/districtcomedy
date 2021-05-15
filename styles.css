@@ -16,6 +16,16 @@
   }
   
   .twitch .twitch-video {
-    width: 100%;
-    padding-top: 100%;
+    width: 75%;
+    padding-top: 42.1875%;
   }
+
+  .twitch .twitch-chat {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
