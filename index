@@ -68,9 +68,9 @@ body {
 
 <div class="topnav" id="myTopnav">
   <a href="https://districtcomedy.io" class="active">Home</a>
-  <a href="signup.html">Sign Up</a>
-  <a href="contact.html">Contact</a>
-  <a href="about.html">About</a>
+  <a href="signup">Sign Up</a>
+  <a href="contact">Contact</a>
+  <a href="about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
