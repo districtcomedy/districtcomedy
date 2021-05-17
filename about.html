@@ -66,7 +66,7 @@ body {
 </head>
 <body>
 <div class="topnav" id="myTopnav">
-  <a href="districtcomedy.io">Home</a>
+  <a href="index.html">Home</a>
   <a href="signup.html">Sign Up</a>
   <a href="contact.html">Contact</a>
   <a href="about.html" class="active">About</a>
@@ -81,5 +81,15 @@ body {
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/districtcomedy?primary_color=43cfec', text: 'Sign Up', color: '#43cfec', textColor: '#ffffff', branding: false }); }</script>
 <!-- Calendly badge widget end -->
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
