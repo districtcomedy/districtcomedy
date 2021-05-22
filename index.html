@@ -80,7 +80,25 @@ body {
 .button:hover {
   background-color: #f1f1f1;
 }
-
+.paypal_btn{
+font-size: 12px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+padding: 10px 14px;
+margin: 0;
+background: #43cfec;
+border: 0;
+cursor: pointer;
+outline: none;
+position:fixed;
+right:20px;
+bottom:15px;
+z-index:9998;
+}
+.paypal_btn:hover{
+  background: #f1f1f1; 
+  }
 </style>
       <title>District Comedy</title>
 </head>
@@ -124,9 +142,10 @@ body {
     </iframe>
   </div>
 </div>
+<div align="left">                                                                                   
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="RT7KRH7GC4JFU" />
-<input type="image" src="PANELTW.svg" border="0" style="display:block; margin:0 auto" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 <!-- Calendly badge widget begin -->
