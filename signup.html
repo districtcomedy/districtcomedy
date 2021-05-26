@@ -60,6 +60,29 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+  .paypal_btn {
+display: table-cell;
+font-size: 14px;
+font-weight: bold;
+font-family: sans-serif;
+color: #fff;
+text-align: center;
+padding: 0px 30px;
+margin: 0;
+background: #43cfec;
+border:0;
+border-radius:25px;
+cursor: pointer;
+outline: none;
+position:fixed;
+right:150px;
+bottom:15px;
+z-index:9998;
+width: auto;
+height: 45px;
+box-shadow: rgb(0 0 0 / 25%) 0 2px 5px;
+vertical-align: middle;
+}
 </style>
       <title>Sign Up</title>
 </head>
@@ -81,7 +104,11 @@ body {
     </div>
   </div> 
 </div>
-
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="RT7KRH7GC4JFU">
+<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/districtcomedy?primary_color=43cfec" style="min-width:320px;height:750px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
