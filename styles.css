@@ -12,12 +12,12 @@
 }
 
 .twitch .twitch-chat {
-  height: 350px;
+  height: 325px;
 }
 
 .twitch .twitch-chat iframe {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 @media screen and (min-width: 850px) {
