@@ -77,7 +77,6 @@ body {
   cursor: pointer;
   border-radius: 16px;
 }
-
 .button:hover {
   background-color: #f1f1f1;
 }
@@ -121,15 +120,9 @@ vertical-align: middle;
       <title>District Comedy</title>
 </head>
 <body>
-
 <div class="navbar">
   <a href="index.html" style="padding:0"><img src="dclogo.svg" width="64" height="55"></a>
-    <button class="dropbtn">About
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="mission.html">Mission</a>
-      <a href="meetyourhosts.html">Meet your Hosts</a>
+  <a href="about.html">About</a>
   <a href="contact.html">Contact Us</a>
   <a href="signup.html">Sign Up</a>
   <div class="dropdown">
@@ -165,19 +158,24 @@ vertical-align: middle;
     </iframe>
   </div>
 </div>
-                                                                        
+<div class="calendly-badge-widget">
+<div class="calendly-badge-content" style="background: rgb(67, 207, 236); color: rgb(255, 255, 255);">                                                                              
+
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="RT7KRH7GC4JFU" />
+<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="calendly-badge-widget">
 <input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
-  
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/districtcomedy?primary_color=43cfec', text: 'Sign Up', color: '#43cfec', textColor: '#ffffff', branding: false }); }</script>
+</div>
+ </div>
+
 <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/districtcomedy?primary_color=43cfec', text: 'Sign Up', color: '#43cfec', textColor: '#ffffff', branding: false }); }</script>
 <!-- Calendly badge widget end -->
-
   <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -188,6 +186,6 @@ function myFunction() {
   }
 }
 </script>
-
 </body>
 </html>
+0 comments on commit 5b0c38f
