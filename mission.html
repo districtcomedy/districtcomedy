@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 30px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #43cfec;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  .paypal_btn {
+display: table-cell;
+font-size: 14px;
+font-weight: bold;
+font-family: sans-serif;
+color: #fff;
+text-align: center;
+padding: 0px 30px;
+margin: 0;
+background: #43cfec;
+border:0;
+border-radius:25px;
+cursor: pointer;
+outline: none;
+position:fixed;
+right:150px;
+bottom:15px;
+z-index:9998;
+width: auto;
+height: 45px;
+box-shadow: rgb(0 0 0 / 25%) 0 2px 5px;
+vertical-align: middle;
+}
+</style>
+      <title>About</title>
+</head>
+<body>
 
+<div class="navbar">
+  <a href="index.html" style="padding:0"><img src="dclogo.svg" width="64" height="55"></a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="signup.html">Sign Up</a>
+  <div class="dropdown">
+    <button class="dropbtn">Events 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="2ff.html">2 Funny Feedback</a>
+      <a href="litv.html">Laughing into the Void</a>
+      <a href="tbj.html">TB&J Open Mic</a>
+    </div>
+  </div> 
+</div>
+<h1 style="text-align:center; maright-left: auto; margin-right: auto;">About District Comedy</h1>
+  <p style="padding: 70px;">District Comedy strives to be an inclusive comedy club, available virtually. Its inception was a reaction to the pandemic of 2020, and hopes to provide a creative outlet for those no longer able to perform at live venues. However, over time, a strong community has been developed, and it is the intention of District Comedy to continue to provide virtual events even when the pandemic has subsided, as the digital medium provides accessibility to those of varying ability, financial situations, and location. These factors have been essential in engaging with a more inclusive community and elevating diverse voices. Additionally, when it is safe to do so, District Comedy hopes to expand its offerings to live venues, although these principles will remain the core values of the organization. Tom Beheler is the founder and overarching administrator of District Comedy, although it is hosts, performers, and audience members that make up its heart.
+</p>
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="RT7KRH7GC4JFU">
+<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/districtcomedy?primary_color=43cfec', text: 'Sign Up', color: '#43cfec', textColor: '#ffffff', branding: false }); }</script>
+<!-- Calendly badge widget end -->
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
