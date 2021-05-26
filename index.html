@@ -96,6 +96,8 @@ body {
   }
   
 .paypal_btn {
+left: 50% !important;
+margin-left: -100px!important; 
 display: table-cell;
 font-size: 14px;
 font-weight: bold;
@@ -110,7 +112,6 @@ border-radius:25px;
 cursor: pointer;
 outline: none;
 position:fixed;
-right:150px;
 bottom:15px;
 z-index:9998;
 width: auto;
@@ -170,7 +171,7 @@ vertical-align: middle;
 
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="RT7KRH7GC4JFU" />
-<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="calendly-badge-widget-a">
+<input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/districtcomedy?primary_color=43cfec', text: 'Sign Up', color: '#43cfec', textColor: '#ffffff', branding: false }); }</script>
