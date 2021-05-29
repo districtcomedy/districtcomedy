@@ -10,7 +10,91 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+.shake {
+	animation: shake-animation 4.72s ease infinite;
+	transform-origin: 50% 50%;
+  }
+  .element {
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	background: red;
+  }
+  @keyframes shake-animation {
+	 0% { transform:translate(0,0) }
+	1.78571% { transform:translate(5px,0) }
+	3.57143% { transform:translate(0,0) }
+	5.35714% { transform:translate(5px,0) }
+	7.14286% { transform:translate(0,0) }
+	8.92857% { transform:translate(5px,0) }
+	10.71429% { transform:translate(0,0) }
+	100% { transform:translate(0,0) }
+  }
+
+  .backdrop {
+	  -moz-box-shadow: 0px 6px 5px #111; 
+	  -webkit-box-shadow: 0px 6px 5px #111; 
+	  box-shadow: 0px 2px 10px #111; 
+	  -moz-border-radius:190px; 
+	  -webkit-border-radius:190px; 
+	  border-radius:190px;
+  }
 }
 .navbat {
   overflow: hidden;
@@ -141,7 +225,9 @@ vertical-align: middle;
     </div>
   </div> 
 </div>
-<h1 style="text-align:center; maright-left: auto; margin-right: auto;">About District Comedy</h1>
+ <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
+                <h2 style="color: #ffffff;">Our Mission</h2>
+            </div>
   <p style="padding: 70px;">District Comedy strives to be an inclusive comedy club, available virtually. Its inception was a reaction to the pandemic of 2020, and hopes to provide a creative outlet for those no longer able to perform at live venues. However, over time, a strong community has been developed, and it is the intention of District Comedy to continue to provide virtual events even when the pandemic has subsided, as the digital medium provides accessibility to those of varying ability, financial situations, and location. These factors have been essential in engaging with a more inclusive community and elevating diverse voices. Additionally, when it is safe to do so, District Comedy hopes to expand its offerings to live venues, although these principles will remain the core values of the organization. Tom Beheler is the founder and overarching administrator of District Comedy, although it is hosts, performers, and audience members that make up its heart.
 </p>
 <!-- Calendly badge widget begin -->
@@ -154,10 +240,6 @@ vertical-align: middle;
 <input type="submit" value="Support" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-  <footer>
- <a href="https://facebook.com/DistrictComedy" class="fa fa-facebook"></a>
- <a href="https://instagram.com/district_comedy" class="fa fa-instagram"></a>
-</footer>
   <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -171,5 +253,8 @@ function myFunction() {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
